@@ -11,7 +11,7 @@ someuser2;;;"OU=BNT Users,DC=bntru,DC=local";someuser1;StRoNgPassword2;BNT Remot
 ```
 
 2. To get current AD rights from folder with subfolders use [get_AD_info.ps1](get_AD_info.ps1). Put the path to folder, number of subfolders and path, where generated CSV-file will be placed and run the script. Script creates CSV file with results
-3. To add AD rights create CSV file and add it's name in [add_rights.ps1](get_AD_info.ps1).
+3. To add AD rights create CSV file and add it's name in [add_rights.ps1](add_AD_rights.ps1).
 Example CSV:
 ```commandline
 "Folder";"Name";"IdentityReference";"AccessControlType";"FilesystemRights"
